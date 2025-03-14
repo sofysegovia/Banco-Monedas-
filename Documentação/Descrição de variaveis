@@ -1,0 +1,31 @@
+transacao:
+  tipo_transacao='pix','saque','deposito' sensivel
+  valor_transacao= 1.000,00 sensivel
+  data_transacao=12/04/2028
+  status_transacao='aprovado' sensivel 
+  descricao_transacao='feito transacao da clini+ para o monedas' sensivel 
+  
+cartao:
+  numero_cartao=1234 5678 9876 5432 sensivel  
+  validade_cartao=12/36 sensivel 
+  cvv_cartao=492 sensivel 
+  tipo_cartao='debito' sensivel
+  limite_cartao='sem limite' nao sensivel 
+
+investimentos
+
+  tipo_investimento='CDB',tesouro direto','açoes' nao sensivel 
+  valor_investimento=10.000,00 sensivel
+  rentabilidade_investimentos='100%CDI' nao senvivel
+  prazo_investimento='6 meses de liquidez' sensivel
+  status_investimento='aprovado' sensivel
+
+cadastro_cliente:
+
+  nome_cliente='luis henrique' sensvivel
+  idade_cliente=18 sensivel 
+  endereco_cliente='rua yvone pimenta' sensivel 
+  cpf_cliente=019229147-72 sensivel
+  email_cliente='luisinho@gmail.com' sensivel
+  senha_cliente='henrique1234' sensivel  
+
