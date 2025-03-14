@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    height: 100vh;
+}
+
+.cadastro_caixa {
+    width: 500px;
+    padding: 40px;
+    border: 2px black solid;
+    border-radius: 50px;
+    display: flex;
+    justify-content: left;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+h2 {
+    font-family: monospace;
+}
+
+.texto_digitar {
+    width: 95%;
+}
+
+.enviar_botao {
+    width: 20%;
+    height: 80px;
+}
