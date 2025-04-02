@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanças | Dashboard</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-light: #dbeafe;
+            --header-bg: #1e40af;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --background: #f8fafc;
+            --card-bg: #ffffff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+        
+        body {
+            background-color: var(--background);
+            color: var(--text);
+            min-height: 100vh;
+        }
+        
+        .header {
+            background-color: var(--header-bg);
+            color: white;
+            padding: 20px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .nav-items {
+            display: flex;
+            gap: 25px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .nav-item {
+            font-size: 16px; /* Aumentei de 14px para 16px */
+            font-weight: 500; /* Adicionei peso médio */
+            opacity: 0.9;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: opacity 0.2s;
+        }
+        
+        .nav-item:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+        
+        .user-profile {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-left: auto;
+        }
+        
+        .profile-pic {
+            width: 36px; /* Aumentei um pouco */
+            height: 36px;
+            border-radius: 50%;
+            background-color: #fff;
+            background-image: url('https://i.imgur.com/J6l19lF.png');
+            background-size: cover;
+            background-position: center;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .user-greeting {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        
+        .greeting-section {
+            padding: 0 20px;
+            margin-bottom: 16px;
+        }
+        
+        .greeting {
+            font-size: 22px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        
+        .balance-label {
+            font-size: 16px;
+            color: var(--text-light);
+            margin-bottom: 4px;
+        }
+        
+        .balance-amount {
+            font-size: 32px;
+            font-weight: 700;
+        }
+        
+        .quick-actions {
+            padding: 0 20px;
+            margin-bottom: 24px;
+        }
+        
+        .quick-actions-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+        
+        .quick-action-card {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            padding: 16px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e2e8f0;
+        }
+        
+        .quick-action-icon {
+            width: 32px;
+            height: 32px;
+            background-color: var(--primary-light);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 8px;
+            color: var(--primary);
+            font-weight: bold;
+        }
+        
+        .quick-action-title {
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .dashboard {
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+        
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 18px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e2e8f0;
+            transition: all 0.2s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary-light);
+        }
+        
+        .card-icon {
+            width: 40px;
+            height: 40px;
+            background-color: var(--primary-light);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: var(--text);
+        }
+        
+        .card-content {
+            font-size: 14px;
+            color: var(--text-light);
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="top-nav">
+            <div class="nav-items">
+                <div class="nav-item">início</div>
+                <div class="nav-item">Ajuda</div>
+                <div class="nav-item">Busca</div>
+                <div class="nav-item">mais</div>
+                <div class="nav-item">atividade</div>
+            </div>
+            <div class="user-profile">
+                <div class="user-greeting">olá Raphael</div>
+                <div class="profile-pic"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="greeting-section">
+        <div class="greeting">Boa Tarde!</div>
+        <div class="balance-label">Saldo</div>
+        <div class="balance-amount">R$ 12,93</div>
+    </div>
+    
+    <div class="quick-actions">
+        <div class="quick-actions-grid">
+            <div class="quick-action-card">
+                <div class="quick-action-icon">P</div>
+                <div class="quick-action-title">Pagamentos</div>
+            </div>
+            <div class="quick-action-card">
+                <div class="quick-action-icon">R</div>
+                <div class="quick-action-title">Recarregar celular</div>
+            </div>
+            <div class="quick-action-card">
+                <div class="quick-action-icon">I</div>
+                <div class="quick-action-title">Investir</div>
+            </div>
+            <div class="quick-action-card">
+                <div class="quick-action-icon">+</div>
+                <div class="quick-action-title">Ver mais</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="dashboard">
+        <div class="card">
+            <div class="card-icon">R</div>
+            <div class="card-title">Reservas</div>
+            <div class="card-content">Comece a guardar dinheiro para seus objetivos</div>
+        </div>
+        
+        <div class="card">
+            <div class="card-icon">I</div>
+            <div class="card-title">Investimentos</div>
+            <div class="card-content">Fundos e CDBs a partir de R$ 1</div>
+        </div>
+        
+        <div class="card">
+            <div class="card-icon">C</div>
+            <div class="card-title">Criptomoeda</div>
+            <div class="card-content">Bitcoin, Ethereum e mais</div>
+        </div>
+        
+        <div class="card">
+            <div class="card-icon">S</div>
+            <div class="card-title">Seguros</div>
+            <div class="card-content">Transparentes e sem letras miúdas</div>
+        </div>
+    </div>
+</body>
+</html>
