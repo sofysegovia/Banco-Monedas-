@@ -2,20 +2,25 @@
 
 -------------
 
-Bem-vindo ao Banco Monedas – seu banco digital simples, rápido e acessível! Nosso objetivo é democratizar o acesso a serviços financeiros, oferecendo uma experiência intuitiva e segura para todos.
+**Bem-vindo ao Banco Monedas – seu banco digital simples, rápido e acessível! Nosso objetivo é democratizar o acesso a serviços financeiros, oferecendo uma experiência intuitiva e segura para todos.** 
 
-🌟 Por que escolher o Banco Monedas?
+## 🌟 Por que escolher o Banco Monedas?
+
 ✔ Facilidade de Acesso – Conta digital aberta em minutos, sem burocracia.
 ✔ Zero Taxas Escondidas – Transparência em todas as operações.
 ✔ Feito para Você – Design intuitivo e suporte humanizado.
 ✔ Segurança em Primeiro Lugar – Proteção de dados e transações com criptografia avançada.
 
-🚀 Quem são os Monedas?
+--------------
+
+## 🚀 Quem são os Monedas?
+
 Somos uma equipe apaixonada por inovação financeira, comprometida em oferecer soluções que realmente facilitem sua vida. Acreditamos que bancarizar não deve ser complicado – e é por isso que criamos o Banco Monedas.
 
 ------------
 
-💡 Nossa Missão
+## 💡 Nossa Missão
+
 "Queremos que todos tenham controle sobre seu dinheiro, sem barreiras."
 
 Nos importamos profundamente com a experiência do usuário, por isso:
@@ -28,13 +33,15 @@ Inovamos constantemente para trazer as melhores soluções financeiras.
 
 --------------
 
-🤝 Contribuindo
+## 🤝 Contribuindo
+
 Quer ajudar a construir o futuro do Banco Monedas? Confira nossas issues e envie um PR!
 
 Banco Monedas – Seu dinheiro, sua liberdade. 💙
 
 (Este projeto está em constante evolução. Fique ligado nas atualizações!) 🚀
 
+------------
 🔐 Banco Monedas © 2025 – Todos os direitos reservados.
 
 
