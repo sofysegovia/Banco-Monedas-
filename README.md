@@ -1,6 +1,12 @@
 ## Banco Monedas 💰
 
 
+RESPONSABILIDADES DO PROJETO:
+Back-end: Angelo, Pedro Augusto, Christopher;
+Front-end: Angelo, Gustavo Aparecido, Luis;
+Banco de dados: Stephanie, Gustavo F., Roberto.
+
+
 **Bem-vindo ao Banco Monedas – seu banco digital simples, rápido e acessível! Nosso objetivo é democratizar o acesso a serviços financeiros, oferecendo uma experiência intuitiva e segura para todos.** 
 
 ## 🌟 Por que escolher o Banco Monedas?
