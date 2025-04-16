@@ -14,8 +14,6 @@
 
 ✔ Zero Taxas Escondidas – Transparência em todas as operações.
 
-✔ Feito para Você – Design intuitivo e suporte humanizado.
-
 ✔ Segurança em Primeiro Lugar – Proteção de dados e transações com criptografia avançada.
 
 ## 🚀 Quem são os Monedas?
