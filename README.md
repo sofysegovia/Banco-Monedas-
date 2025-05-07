@@ -50,6 +50,11 @@ Link do protótipo para mobile: https://www.canva.com/design/DAGgC2VZuts/sxrqFif
 
 🔐 Banco Monedas © 2025 – Todos os direitos reservados.
 
+---------------
 
+## Link do Padlet
 
-   
+https://padlet.com/fpedro14/kanban-m0mfv07dj1qn74rl
+
+   Adicionar as perguntas que criar (somente as melhores)
+   e adicionar as repostas tambem
