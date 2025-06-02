@@ -62,3 +62,7 @@ https://padlet.com/fpedro14/kanban-m0mfv07dj1qn74rl
 ## Link do Doc (perguntas mais organizadas)
 
 https://docs.google.com/document/d/1_ZSR9KmwHEncJAY62s_gB-gHV7-UGd8Mwkcw8lA6g4g/edit?usp=sharing
+
+## Link do draw.io
+
+https://drive.google.com/file/d/1GnEvYcDDo15Hlyp7PVsQp15Et1Tb4dmH/view?usp=sharing
