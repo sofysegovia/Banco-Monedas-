@@ -1,0 +1,286 @@
+/* Estilos Gerais e Reset Básico */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f7f6; /* Fundo cinza claro */
+    color: #ff0000; /* Cor padrão do texto */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 0 20px; /* Espaçamento lateral */
+}
+
+/* --- Header --- */
+.header {
+    background-color: #004d40; /* Verde escuro do banco */
+    color: #ffffff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+.header h1 {
+    margin: 0;
+    float: left; /* Alinha o título à esquerda */
+    font-size: 28px;
+}
+
+.main-nav {
+    float: right; /* Alinha a navegação à direita */
+}
+
+.main-nav ul {
+    list-style: none; /* Remove marcadores da lista */
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline-block; /* Itens da navegação em linha */
+    margin-left: 25px;
+}
+
+.main-nav ul li a {
+    color: #ffffff;
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold;
+    padding: 5px 0;
+    transition: all 0.3s ease; /* Transição suave para hover */
+}
+
+.main-nav ul li a:hover,
+.main-nav ul li a.active {
+    color: #80cbc4; /* Verde claro ao passar o mouse ou ativo */
+    border-bottom: 2px solid #80cbc4; /* Borda inferior */
+}
+
+/* Limpa o float no header */
+.header .container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* --- Conteúdo Principal e Sidebar --- */
+.main-content {
+    display: flex; /* Layout flexbox para sidebar e dashboard */
+    margin-top: 30px;
+    gap: 30px; /* Espaço entre os elementos flex */
+}
+
+.sidebar {
+    flex: 0 0 220px; /* Largura fixa para a sidebar */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    height: fit-content; /* Ajusta a altura ao conteúdo */
+}
+
+.sidebar h2 {
+    color: #004d40;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #555;
+    display: block; /* Ocupa a largura total do item */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #e0f2f1; /* Fundo verde claro ao passar o mouse */
+    color: #004d40;
+}
+
+/* --- Dashboard de Investimentos --- */
+.investment-dashboard {
+    flex-grow: 1; /* Ocupa o espaço restante */
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.investment-dashboard h2 {
+    color: #004d40;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 26px;
+    border-bottom: 1px solid #eee; /* Linha divisória */
+    padding-bottom: 15px;
+}
+
+/* Cards de Resumo */
+.summary-cards {
+    display: grid; /* Layout de grade para os cards */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Colunas responsivas */
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #e0f2f1; /* Fundo verde claro para cards */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #004d40;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card .value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #004d40;
+}
+
+.card .value.positive {
+    color: #2e7d32; /* Verde para valores positivos */
+}
+
+.card .value.negative {
+    color: #d32f2f; /* Vermelho para valores negativos */
+}
+
+/* --- Tabela de Investimentos --- */
+.investment-list {
+    margin-bottom: 30px;
+}
+
+.investment-list h3 {
+    color: #004d40;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaçamento entre bordas */
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden; /* Garante que cantos arredondados sejam aplicados */
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0; /* Borda inferior clara */
+}
+
+table th {
+    background-color: #f5f5f5; /* Fundo do cabeçalho */
+    color: #555;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+table tbody tr:last-child td {
+    border-bottom: none; /* Remove borda da última linha */
+}
+
+table tbody tr:hover {
+    background-color: #f9f9f9; /* Fundo leve ao passar o mouse */
+}
+
+td.positive {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+td.negative {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.details-button {
+    background-color: #00796b; /* Botão verde escuro */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.details-button:hover {
+    background-color: #004d40;
+}
+
+/* --- Botões de Ação --- */
+.actions-section h3 {
+    color: #004d40;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.action-button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-right: 15px;
+}
+
+.action-button.primary {
+    background-color: #00796b; /* Botão primário verde escuro */
+    color: white;
+}
+
+.action-button.primary:hover {
+    background-color: #004d40;
+    transform: translateY(-2px); /* Efeito de "levantar" */
+}
+
+.action-button.secondary {
+    background-color: #e0e0e0; /* Botão secundário cinza */
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.action-button.secondary:hover {
+    background-color: #d5d5d5;
+    transform: translateY(-2px);
+}
+
+/* --- Footer --- */
+.footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.footer p {
+    margin: 0;
+}
