@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Carteira de Investimentos - Banco ABC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Banco ABC</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Contas</a></li>
+                    <li><a href="#" class="active">Investimentos</a></li>
+                    <li><a href="#">Transferências</a></li>
+                    <li><a href="#">Ajuda</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content container">
+        <aside class="sidebar">
+            <h2>Sua Carteira</h2>
+            <ul>
+                <li><a href="#">Visão Geral</a></li>
+                <li><a href="#">Renda Fixa</a></li>
+                <li><a href="#">Ações</a></li>
+                <li><a href="#">Fundos</a></li>
+                <li><a href="#">Previdência</a></li>
+                <li><a href="#">Histórico</a></li>
+            </ul>
+        </aside>
+
+        <section class="investment-dashboard">
+            <h2>Dashboard de Investimentos</h2>
+
+            <div class="summary-cards">
+                <div class="card">
+                    <h3>Valor Total Investido</h3>
+                    <p class="value">R$ 175.000,00</p>
+                </div>
+                <div class="card">
+                    <h3>Rendimento no Mês</h3>
+                    <p class="value positive">+ R$ 1.520,00</p>
+                </div>
+                <div class="card">
+                    <h3>Rentabilidade Anual</h3>
+                    <p class="value positive">9.2%</p>
+                </div>
+            </div>
+
+            <div class="investment-list">
+                <h3>Meus Ativos</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ativo</th>
+                            <th>Tipo</th>
+                            <th>Valor Atual</th>
+                            <th>Rendimento (%)</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CDB Fácil</td>
+                            <td>Renda Fixa</td>
+                            <td>R$ 60.000,00</td>
+                            <td class="positive">+ 0.75%</td>
+                            <td><button class="details-button">Ver Detalhes</button></td>
+                        </tr>
+                        <tr>
+                            <td>Ação DEF3</td>
+                            <td>Ações</td>
+                            <td>R$ 40.000,00</td>
+                            <td class="negative">- 1.10%</td>
+                            <td><button class="details-button">Ver Detalhes</button></td>
+                        </tr>
+                        <tr>
+                            <td>Fundo Multi Estratégia</td>
+                            <td>Fundos</td>
+                            <td>R$ 75.000,00</td>
+                            <td class="positive">+ 1.30%</td>
+                            <td><button class="details-button">Ver Detalhes</button></td>
+                        </tr>
+                        <tr>
+                            <td>Previdência Futuro</td>
+                            <td>Previdência</td>
+                            <td>R$ 10.000,00</td>
+                            <td class="positive">+ 0.90%</td>
+                            <td><button class="details-button">Ver Detalhes</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="actions-section">
+                <h3>O que você quer fazer?</h3>
+                <button class="action-button primary">Novo Investimento</button>
+                <button class="action-button secondary">Resgatar Valores</button>
+                <button class="action-button secondary">Simular Investimento</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Banco ABC. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
