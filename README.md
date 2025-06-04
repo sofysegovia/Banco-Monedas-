@@ -43,10 +43,7 @@ Banco Monedas – Seu dinheiro, sua liberdade. 💙
 
 ----------------
 
-Link do protótipo para computador: https://www.canva.com/design/DAGgZMh2zH8/R5JlAzYoP8k0aU02-G8m8g/edit?utm_content=DAGgZMh2zH8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
-Link do protótipo para mobile: https://www.canva.com/design/DAGgC2VZuts/sxrqFifyp2GVSgAg2OInGA/edit
-
+Link do protótipo para computador: https://www.canva.com/design/DAGoM8WKFvg/ZUJNJP3EJ2O2haR0e7ksrA/edit?utm_content=DAGoM8WKFvg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 🔐 Banco Monedas © 2025 – Todos os direitos reservados.
 
