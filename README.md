@@ -63,3 +63,5 @@ https://docs.google.com/document/d/1_ZSR9KmwHEncJAY62s_gB-gHV7-UGd8Mwkcw8lA6g4g/
 ## Link do draw.io
 
 https://drive.google.com/file/d/1GnEvYcDDo15Hlyp7PVsQp15Et1Tb4dmH/view?usp=sharing
+
+## Lembrando que Semana que vem temos Entrega .
